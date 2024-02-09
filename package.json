@@ -1,0 +1,17 @@
+{
+  "name": "messageinfo",
+  "version": "1.0.0",
+  "description": "Get information about messages.",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "./code/bot.js",
+    "dev": "nodemon ./code/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akbar <akbarjonjorayev001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
